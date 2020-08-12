@@ -1,0 +1,13 @@
+.card {
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  transition: 0.3s;
+  border:0;
+  border-radius: 6px;
+}
+.c-pointer {
+  cursor: pointer;
+  &:focus{
+    outline: none !important;
+  }
+}
